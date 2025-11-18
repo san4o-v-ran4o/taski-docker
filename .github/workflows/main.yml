@@ -184,7 +184,7 @@ jobs:
           # которые нужно выполнить на сервере,
           # с которым установлено соединение
           script: |
-            cd /projects/taski/
+            cd projects/taski/
             # Выполняет pull образов с Docker Hub
             sudo docker compose -f docker-compose.production.yml pull
             # Перезапускает все контейнеры в Docker Compose
